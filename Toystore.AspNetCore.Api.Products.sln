@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1340
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toystore.AspNetCore.Api.Products", "Toystore.AspNetCore.Api.Products\Toystore.AspNetCore.Api.Products.csproj", "{B99367E4-EDCC-4A37-8D01-40CECE5A7A66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Toystore.AspNetCore.Api.Products", "Toystore.AspNetCore.Api.Products\Toystore.AspNetCore.Api.Products.csproj", "{B99367E4-EDCC-4A37-8D01-40CECE5A7A66}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{28851B05-17BE-4A6B-B8F2-E9533E96149F}"
 EndProject
@@ -11,7 +11,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{3E493878-DC2
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{5AF80ABE-0AFA-41E8-8F3E-E91B08E1DE4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toystore.Core.Products", "Toystore.Core.Products\Toystore.Core.Products.csproj", "{FA2C7A4A-5B46-4EFE-9085-9DF9A6B163D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Toystore.Core.Products", "Toystore.Core.Products\Toystore.Core.Products.csproj", "{FA2C7A4A-5B46-4EFE-9085-9DF9A6B163D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toystore.AspNetCore.Test.Products", "Toystore.AspNetCore.Test.Products\Toystore.AspNetCore.Test.Products.csproj", "{A5E62343-33C8-42C8-9CA3-F2F5084829C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{FA2C7A4A-5B46-4EFE-9085-9DF9A6B163D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA2C7A4A-5B46-4EFE-9085-9DF9A6B163D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA2C7A4A-5B46-4EFE-9085-9DF9A6B163D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5E62343-33C8-42C8-9CA3-F2F5084829C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5E62343-33C8-42C8-9CA3-F2F5084829C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5E62343-33C8-42C8-9CA3-F2F5084829C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5E62343-33C8-42C8-9CA3-F2F5084829C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{B99367E4-EDCC-4A37-8D01-40CECE5A7A66} = {28851B05-17BE-4A6B-B8F2-E9533E96149F}
 		{FA2C7A4A-5B46-4EFE-9085-9DF9A6B163D9} = {3E493878-DC26-41F7-A2B5-2EDAEBFF81E0}
+		{A5E62343-33C8-42C8-9CA3-F2F5084829C0} = {5AF80ABE-0AFA-41E8-8F3E-E91B08E1DE4D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {94879166-E8A2-4157-A9E8-8C4A37E56818}
